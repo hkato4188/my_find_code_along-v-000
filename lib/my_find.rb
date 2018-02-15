@@ -11,8 +11,7 @@ def my_find(collection)
     new_array << yeild(collection[i])
     i += 1
   end
-binding.pry 
-  if new_array.include?(f)
-
+binding.pry
+  i
 
 end
