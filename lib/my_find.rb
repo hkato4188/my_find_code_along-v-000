@@ -8,7 +8,7 @@ def my_find(collection)
   i = 0
 
   while i < collection.length
-    new_array << yeild(collection[i])
+    new_array << yield(collection[i])
     i += 1
   end
 binding.pry
